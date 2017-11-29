@@ -1,1 +1,2 @@
 # Final-HW
+For Big O on this program, the precise value is very close to 6 * (O) * n^3 which as the number grows higher is shortened by convention to O * n^3.  In this n is the length of the number being added.  The reason it increases in such a fashion is that in the reverse method it goes through three steps with every value of the node.  It first iterates through the node, then it recursively removes each element of the node, then appends it in the reverse order.  These three steps per node cause it to increase at a n ^3 rate in terms of its Big O.
